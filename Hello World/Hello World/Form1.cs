@@ -25,5 +25,10 @@ namespace Hello_World
         {
             lblHelloWorld.Text = "Hello World!";
         }
+
+        private void btwCMI_Click(object sender, EventArgs e)
+        {
+            lblCMI.Text = "Haha! Tricked you";
+        }
     }
 }
